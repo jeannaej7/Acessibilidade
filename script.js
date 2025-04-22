@@ -24,4 +24,13 @@ document.addEventListener('DOMContentLoaded', function () {
         document.body.style.fontSize = `${tamanhoAtualFonte}rem`
 
     });
+
+    const alternaContraste = document.getElementById('alterna-contraste')
+
+    alternaContraste.addEventListener('click', function(){
+    document.body.classList.toggle('alto-contraste')
+    })
+
+
+
 });
